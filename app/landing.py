@@ -19,19 +19,19 @@ else:
     st.markdown("""
         <style>
             /* Remove any margin from the body to prevent unnecessary scrollbars */
-            .main {
-                padding: 0 !important;
-                margin: 0 !important;
+          .main {
+                padding: 0!important;
+                margin: 0!important;
             }
-            .block-container {
-                padding: 0 !important;
+          .block-container {
+                padding: 0!important;
             }
             footer {
                 background-color: #f8f8f8;
                 text-align: center;
                 padding-top: 20px;
-                margin-bottom: 0 !important;
-                padding-bottom: 0 !important;
+                margin-bottom: 0!important;
+                padding-bottom: 0!important;
             }
         </style>
     """, unsafe_allow_html=True)
@@ -51,7 +51,7 @@ else:
     # Get Started button styling
     st.markdown("""
         <style>
-        .stButton > button {
+      .stButton > button {
                 background-color: #000;
                 color: #fff;
                 padding: 1rem 2rem;
@@ -65,43 +65,21 @@ else:
         </style>
     """, unsafe_allow_html=True)
 
-
-    # Features section
-    # st.markdown("""
-    #     <div style='display: flex; justify-content: space-around; padding: 10px 10px; flex-wrap: wrap; background-color:#ffffff;'>
-    #     <div style='flex-basis: calc(33.333% - 2rem); background-color:#f8f8f8; padding: 2rem; text-align:center; border-radius:10px; margin-bottom:20px;'>
-    #         <i class="fas fa-file-alt" style='font-size: 3rem; color: #000;'></i>
-    #         <h2 style='font-size: 1.8rem; color:#000;'>Liability</h2>
-    #         <p style='font-size: 1.1rem; color:#333;'>Identify potential liabilities with our advanced analysis tools. Get alerts for potential risks and take proactive measures. Stay ahead of the competition with our cutting-edge liability analysis.</p>
-    #     </div>
-    #     <div style='flex-basis: calc(33.333% - 2rem); background-color:#f8f8f8; padding: 2rem; text-align:center; border-radius:10px; margin-bottom:20px;'>
-    #         <i class="fas fa-question-circle" style='font-size: 3rem; color: #000;'></i>
-    #         <h2 style='font-size: 1.8rem; color:#000;'>Support Files</h2>
-    #         <p style='font-size: 1.1rem; color:#333;'>Get help with document analysis and interpretation. Access our knowledge base and FAQs.Contact our support team for any questions or concerns.</p>
-    #     </div>
-    #     <div style='flex-basis: calc(33.333% - 2rem); background-color:#f8f8f8; padding: 2rem; text-align:center; border-radius:10px; margin-bottom:20px;'>
-    #         <i class="fas fa-download" style='font-size: 3rem; color: #000;'></i>
-    #         <h2 style='font-size: 1.8rem; color:#000;'>Download</h2>
-    #         <p style='font-size: 1.1rem; color:#333;'>Download your analyzed documents in various formats. Share your findings with colleagues and stakeholders. Keep your files organized and easily accessible.</p>
-    #     </div>
-
-    # </div>
-    # """, unsafe_allow_html=True)
-    # Features section
     st.markdown("""
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         <div style='display: flex; justify-content: space-around; padding: 10px 10px; flex-wrap: wrap; background-color:#ffffff;'>
-            <div style='flex-basis: calc(33.333% - 2rem); background-color:#f8f8f8; padding: 2rem; text-align:center; border-radius:10px; margin-bottom:20px;'>
-                <i class="fas fa-file-alt" style='font-size: 3rem; color: #000;'></i>
+            <div style='flex-basis: calc(33.333% - 2rem); background-color:#f8f8f8; padding: 1rem; text-align:center; border-radius:10px; margin-bottom:20px;'>
+                <i class="fa fa-gavel"  style='font-size: 2.5rem; color: #000; padding-top: 8px;'></i>
                 <h2 style='font-size: 1.8rem; color:#000;'>Liability</h2>
                 <p style='font-size: 1.1rem; color:#333;'>This application is designed to analyze documents and generate comprehensive liability reports, ensuring users are well-informed about potential risks and compliance issues.</p>
             </div>
-            <div style='flex-basis: calc(33.333% - 2rem); background-color:#f8f8f8; padding: 2rem; text-align:center; border-radius:10px; margin-bottom:20px;'>
-                <i class="fas fa-question-circle" style='font-size: 3rem; color: #000;'></i>
+            <div style='flex-basis: calc(33.333% - 2rem); background-color:#f8f8f8; padding: 1rem; text-align:center; border-radius:10px; margin-bottom:20px;'>
+                <i class="fas fa-file-alt" style='font-size: 2.5rem; color: #000; padding-top: 8px;'></i>
                 <h2 style='font-size: 1.8rem; color:#000;'>Support Files</h2>
                 <p style='font-size: 1.1rem; color:#333;'>The app supports multiple file formats, including PDF, XLSX, and DOC, DOCX, etc facilitating seamless document analysis and versatility in use.</p>
             </div>
-            <div style='flex-basis: calc(33.333% - 2rem); background-color:#f8f8f8; padding: 2rem; text-align:center; border-radius:10px; margin-bottom:20px;'>
-                <i class="fas fa-download" style='font-size: 3rem; color: #000;'></i>
+            <div style='flex-basis: calc(33.333% - 2rem); background-color:#f8f8f8; padding: 1rem; text-align:center; border-radius:10px; margin-bottom:20px;'>
+                <i class="fas fa-download" style='font-size: 2.5rem; color: #000; padding-top: 8px;'></i>
                 <h2 style='font-size: 1.8rem; color:#000;'>Download Files</h2>
                 <p style='font-size: 1.1rem; color:#333;'>Easily download your generated reports in PDF format, crafted using advanced AI models for precise and actionable insights.</p>
             </div>
