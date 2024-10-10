@@ -91,7 +91,7 @@ else:
     # Footer section
     st.markdown("""
     
-<footer style='background-color: #f8f8f8; text-align: center;'>
+    <footer style='background-color: #f8f8f8; text-align: center;'>
         <p style='font-size: 1rem; color: #666;'>Developed by Legal Experts and AI Enthusiasts.</p>
         <p style='font-size: 1rem; color: #666;'>© 2024 Legal Buddy Team. All Rights Reserved.</p>
     </footer>
