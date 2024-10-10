@@ -1,19 +1,16 @@
 import os
 from openai import OpenAI
-from dotenv import load_dotenv
-
-# Load environment variables from .env file
-load_dotenv()
+import streamlit as st
 
 # Cerebras (LLaMA 3.1 70B) configuration
-CEREBRAS_API_KEY = os.getenv("CEREBRAS_API_KEY")
-CEREBRAS_API_BASE = os.getenv("CEREBRAS_API_BASE", "https://run.cerebras.ai/api/v1")
-CEREBRAS_MODEL = os.getenv("CEREBRAS_MODEL", "llama-3.1-70b")
+CEREBRAS_API_KEY = st.secrets["CEREBRAS_API_KEY"]
+CEREBRAS_API_BASE = st.secrets["CEREBRAS_API_BASE"]
+CEREBRAS_MODEL = st.secrets["CEREBRAS_MODEL"]
 
 # OpenAI configuration
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-OPENAI_API_BASE = os.getenv("OPENAI_API_BASE", "https://aimlapi.com/v1")
-OPENAI_MODEL = os.getenv("OPENAI_MODEL", "o1-preview")
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+OPENAI_API_BASE = st.secrets["OPENAI_API_BASE"]
+OPENAI_MODEL = st.secrets["OPENAI_MODEL"]
 
 def setup_cerebras_client():
     return OpenAI(
