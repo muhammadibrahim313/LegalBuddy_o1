@@ -1,144 +1,120 @@
-
-from streamlit.components.v1 import html
-
-
 import streamlit as st
 
-# Updated HTML content with full-width layout and black/white theme
-html_content = """
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legal Buddy</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-        
-        body, html {
-            font-family: 'Montserrat', sans-serif;
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            overflow-x: hidden;
-        }
-        body {
-            background-color: #ffffff;
-            color: #000000;
-            display: flex;
-            flex-direction: column;
-        }
-        .container {
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        header {
-            text-align: center;
-            padding: 4rem 0;
-            background-color: #f8f8f8;
-        }
-        h1 {
-            font-size: 4rem;
-            margin-bottom: 1rem;
-            color: #000000;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-        }
-        .subtitle {
-            font-size: 1.5rem;
-            margin-bottom: 2rem;
-            color: #333333;
-        }
-        .cta-button {
-            display: inline-block;
-            background-color: #000000;
-            color: #ffffff;
-            padding: 1rem 2rem;
-            font-size: 1.2rem;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        .cta-button:hover {
-            background-color: #333333;
-            transform: translateY(-3px);
-            box-shadow: 0 6px 8px rgba(0,0,0,0.15);
-        }
-        .features {
-            display: flex;
-            justify-content: space-around;
-            padding: 4rem 2rem;
-            flex-wrap: wrap;
-            background-color: #ffffff;
-        }
-        .feature {
-            flex-basis: calc(33.333% - 2rem);
-            padding: 2rem;
-            background-color: #f8f8f8;
-            border-radius: 10px;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-            transition: all 0.3s ease;
-            margin-bottom: 2rem;
-        }
-        .feature:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
-        }
-        .feature h2 {
-            font-size: 1.8rem;
-            margin-bottom: 1rem;
-            color: #000000;
-        }
-        .feature p {
-            font-size: 1.1rem;
-            color: #333333;
-        }
-        .feature i {
-            font-size: 3rem;
-            color: #000000;
-            margin-bottom: 1rem;
-        }
-        @media (max-width: 768px) {
-            .feature {
-                flex-basis: 100%;
+# Set up the page configuration to wide layout without scrolling
+st.set_page_config(page_title="Legal Buddy", layout="wide")
+
+# Initialize session state
+if 'show_main' not in st.session_state:
+    st.session_state.show_main = False
+
+def show_main_page():
+    st.session_state.show_main = True
+
+if st.session_state.show_main:
+    # Import and run the main.py content
+    from main import main
+    main()
+else:
+    # Landing page content with markdown
+    st.markdown("""
+        <style>
+            /* Remove any margin from the body to prevent unnecessary scrollbars */
+            .main {
+                padding: 0 !important;
+                margin: 0 !important;
             }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1>Legal Buddy</h1>
-            <p class="subtitle">Your intelligent companion for liability analysis and legal document insights.</p>
-            <a href="#" class="cta-button">Get Started Now</a>
-        </header>
-        
-        <div class="features">
-            <div class="feature">
-                <i class="fas fa-file-alt"></i>
-                <h2>Smart Document Analysis</h2>
-                <p>Upload and analyze various document types for potential liabilities with ease.</p>
+            .block-container {
+                padding: 0 !important;
+            }
+            footer {
+                background-color: #f8f8f8;
+                text-align: center;
+                padding-top: 20px;
+                margin-bottom: 0 !important;
+                padding-bottom: 0 !important;
+            }
+        </style>
+    """, unsafe_allow_html=True)
+
+    # Header section
+    st.markdown("""
+    <div style='background-color:#f8f8f8; padding: 60px 0; text-align:center;'>
+        <h1 style='font-size: 4rem; color:#000000; text-shadow: 1px 1px 2px rgba(0,0,0,0.1);'>Legal Buddy</h1>
+        <p style='font-size: 1.5rem; color:#333;'>Your intelligent companion for liability analysis and legal document insights.</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Get Started button
+    if st.button('Get Started Now', on_click=show_main_page):
+        st.experimental_rerun()
+
+    # Get Started button styling
+    st.markdown("""
+        <style>
+        .stButton > button {
+                background-color: #000;
+                color: #fff;
+                padding: 1rem 2rem;
+                text-decoration: none;
+                margin-left: 44%;
+                margin-top: 20px;
+                border-radius: 5px;
+                font-size: 1.2rem;
+                box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            }
+        </style>
+    """, unsafe_allow_html=True)
+
+
+    # Features section
+    # st.markdown("""
+    #     <div style='display: flex; justify-content: space-around; padding: 10px 10px; flex-wrap: wrap; background-color:#ffffff;'>
+    #     <div style='flex-basis: calc(33.333% - 2rem); background-color:#f8f8f8; padding: 2rem; text-align:center; border-radius:10px; margin-bottom:20px;'>
+    #         <i class="fas fa-file-alt" style='font-size: 3rem; color: #000;'></i>
+    #         <h2 style='font-size: 1.8rem; color:#000;'>Liability</h2>
+    #         <p style='font-size: 1.1rem; color:#333;'>Identify potential liabilities with our advanced analysis tools. Get alerts for potential risks and take proactive measures. Stay ahead of the competition with our cutting-edge liability analysis.</p>
+    #     </div>
+    #     <div style='flex-basis: calc(33.333% - 2rem); background-color:#f8f8f8; padding: 2rem; text-align:center; border-radius:10px; margin-bottom:20px;'>
+    #         <i class="fas fa-question-circle" style='font-size: 3rem; color: #000;'></i>
+    #         <h2 style='font-size: 1.8rem; color:#000;'>Support Files</h2>
+    #         <p style='font-size: 1.1rem; color:#333;'>Get help with document analysis and interpretation. Access our knowledge base and FAQs.Contact our support team for any questions or concerns.</p>
+    #     </div>
+    #     <div style='flex-basis: calc(33.333% - 2rem); background-color:#f8f8f8; padding: 2rem; text-align:center; border-radius:10px; margin-bottom:20px;'>
+    #         <i class="fas fa-download" style='font-size: 3rem; color: #000;'></i>
+    #         <h2 style='font-size: 1.8rem; color:#000;'>Download</h2>
+    #         <p style='font-size: 1.1rem; color:#333;'>Download your analyzed documents in various formats. Share your findings with colleagues and stakeholders. Keep your files organized and easily accessible.</p>
+    #     </div>
+
+    # </div>
+    # """, unsafe_allow_html=True)
+    # Features section
+    st.markdown("""
+        <div style='display: flex; justify-content: space-around; padding: 10px 10px; flex-wrap: wrap; background-color:#ffffff;'>
+            <div style='flex-basis: calc(33.333% - 2rem); background-color:#f8f8f8; padding: 2rem; text-align:center; border-radius:10px; margin-bottom:20px;'>
+                <i class="fas fa-file-alt" style='font-size: 3rem; color: #000;'></i>
+                <h2 style='font-size: 1.8rem; color:#000;'>Liability</h2>
+                <p style='font-size: 1.1rem; color:#333;'>This application is designed to analyze documents and generate comprehensive liability reports, ensuring users are well-informed about potential risks and compliance issues.</p>
             </div>
-            <div class="feature">
-                <i class="fas fa-brain"></i>
-                <h2>AI-Powered Insights</h2>
-                <p>Leverage cutting-edge AI models for comprehensive and accurate legal analysis.</p>
+            <div style='flex-basis: calc(33.333% - 2rem); background-color:#f8f8f8; padding: 2rem; text-align:center; border-radius:10px; margin-bottom:20px;'>
+                <i class="fas fa-question-circle" style='font-size: 3rem; color: #000;'></i>
+                <h2 style='font-size: 1.8rem; color:#000;'>Support Files</h2>
+                <p style='font-size: 1.1rem; color:#333;'>The app supports multiple file formats, including PDF, XLSX, and DOC, DOCX, etc facilitating seamless document analysis and versatility in use.</p>
             </div>
-            <div class="feature">
-                <i class="fas fa-chart-bar"></i>
-                <h2>Instant Reports</h2>
-                <p>Generate and download detailed liability analysis reports in PDF format within seconds.</p>
+            <div style='flex-basis: calc(33.333% - 2rem); background-color:#f8f8f8; padding: 2rem; text-align:center; border-radius:10px; margin-bottom:20px;'>
+                <i class="fas fa-download" style='font-size: 3rem; color: #000;'></i>
+                <h2 style='font-size: 1.8rem; color:#000;'>Download Files</h2>
+                <p style='font-size: 1.1rem; color:#333;'>Easily download your generated reports in PDF format, crafted using advanced AI models for precise and actionable insights.</p>
             </div>
         </div>
-    </div>
-</body>
-</html>
-"""
+    """, unsafe_allow_html=True)
 
-# Render the HTML in Streamlit
-st.set_page_config(page_title="Legal Buddy", layout="wide")
-st.components.v1.html(html_content, height=900, scrolling=False)
+
+
+    # Footer section
+    st.markdown("""
+    
+<footer style='background-color: #f8f8f8; text-align: center; padding-top: 10px;'>
+        <p style='font-size: 1rem; color: #666;'>2024 Legal Buddy Team. All Rights Reserved. Developed by Legal Experts and AI Enthusiasts.</p>
+    </footer>
+
+    """, unsafe_allow_html=True)

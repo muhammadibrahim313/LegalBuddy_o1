@@ -29,15 +29,21 @@ css = """
     .stButton > button {
         background-color: #000000;
         color: #ffffff;
-        border: none;
-        padding: 0.5rem 1rem;
-        font-size: 1rem;
+        border: 2px solid transparent;  /* Added a transparent border */
+        padding: 1rem 2rem;  /* Adjusted padding to match 'Get Started Now' style */
+        font-size: 1.2rem;    /* Increased font size */
         border-radius: 5px;
         transition: all 0.3s ease;
         box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        margin-top: 20px;     /* Added top margin for spacing */
+        margin-left: auto;     /* Centered horizontally */
+        margin-right: auto;    /* Centered horizontally */
+        display: block;        /* Changed to block for centering */
     }
     .stButton > button:hover {
-        background-color: #333333;
+        background-color: #ffffff;  /* Change background to white on hover */
+        color: #000000;              /* Change text color to black on hover */
+        border: 2px solid #000000;  /* Add black border on hover */
         transform: translateY(-2px);
         box-shadow: 0 6px 8px rgba(0,0,0,0.15);
     }
@@ -59,15 +65,21 @@ css = """
     .stDownloadButton > button {
         background-color: #000000;
         color: #ffffff;
-        border: none;
-        padding: 0.5rem 1rem;
-        font-size: 1rem;
+        border: 2px solid transparent;  /* Added a transparent border */
+        padding: 1rem 2rem;  /* Adjusted padding */
+        font-size: 1.2rem;    /* Increased font size */
         border-radius: 5px;
         transition: all 0.3s ease;
         box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        margin-top: 20px;     /* Added top margin for spacing */
+        margin-left: auto;     /* Centered horizontally */
+        margin-right: auto;    /* Centered horizontally */
+        display: block;        /* Changed to block for centering */
     }
     .stDownloadButton > button:hover {
-        background-color: #333333;
+        background-color: #ffffff;  /* Change background to white on hover */
+        color: #000000;              /* Change text color to black on hover */
+        border: 2px solid #000000;  /* Add black border on hover */
         transform: translateY(-2px);
         box-shadow: 0 6px 8px rgba(0,0,0,0.15);
     }
@@ -76,7 +88,7 @@ css = """
 
 def main():
     # Inject custom CSS
-    st.markdown(css, unsafe_allow_html=True)
+    # st.markdown(css, unsafe_allow_html=True)
     
     st.title("Document Liability Analysis")
 
