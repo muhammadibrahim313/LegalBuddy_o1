@@ -95,4 +95,5 @@ else:
         <p style='font-size: 1rem; color: #666;'>2024 Legal Buddy Team. All Rights Reserved. Developed by Legal Experts and AI Enthusiasts.</p>
     </footer>
 
+
     """, unsafe_allow_html=True)
