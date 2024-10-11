@@ -107,7 +107,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Visit `http://localhost:8501` in your browser to start using LegalBuddy locally!
+
 
 ---
 
