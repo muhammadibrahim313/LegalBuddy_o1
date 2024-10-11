@@ -146,22 +146,22 @@ streamlit run landing.py
       <a href="https://github.com/Asimbaloch"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="100px"/></a>
     </td>
     <td align="center">
-      <a href="https://www.linkedin.com/in/ahmad-fakhar-357742258/"><img src="https://github.com/Ahmad-Fakhar.png" width="100px;" alt="Ahmad Fakhar"/><br /><sub><b>Ahmad Fakhar</b></sub></a><br />
+      <a href="https://www.linkedin.com/in/ahmad-fakhar-357742258/"><img src="https://github.com/Ahmad-Fakhar.png" width="100px;" alt="Ahmad Fakhar"/><br /><sub><b>Ahmad Fakhar</b><br></sub></a><br />
       <a href="https://www.linkedin.com/in/ahmad-fakhar-357742258/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="80px"/></a>
       <a href="https://github.com/Ahmad-Fakhar"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="80px"/></a>
     </td>
     <td align="center">
-      <a href="https://www.linkedin.com/in/muhammad-jawad-86507b201"><img src="https://github.com/mj-awad17.png" width="100px;" alt="Muhammad Jawad"/><br /><sub><b>Muhammad Jawad</b></sub></a><br />
+      <a href="https://www.linkedin.com/in/muhammad-jawad-86507b201"><img src="https://github.com/mj-awad17.png" width="100px;" alt="Muhammad Jawad"/><br /><sub><b>Muhammad Jawad</b><br></sub></a><br />
       <a href="https://www.linkedin.com/in/muhammad-jawad-86507b201"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="80px"/></a>
       <a href="https://github.com/mj-awad17"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="80px"/></a>
     </td>
     <td align="center">
-      <a href="https://www.linkedin.com/in/muhammad-bilal-a75782280/"><img src="https://github.com/bilal77511.png" width="100px;" alt="Muhammad Bilal"/><br /><sub><b>Muhammad Bilal</b></sub></a><br />
+      <a href="https://www.linkedin.com/in/muhammad-bilal-a75782280/"><img src="https://github.com/bilal77511.png" width="100px;" alt="Muhammad Bilal"/><br /><sub><b>Muhammad Bilal</b><br></sub></a><br />
       <a href="https://www.linkedin.com/in/muhammad-bilal-a75782280/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="80px"/></a>
       <a href="https://github.com/bilal77511"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="80px"/></a>
     </td>
     <td align="center">
-      <a href="https://www.linkedin.com/in/muhammad-ibrahim-qasmi-9876a1297/"><img src="https://github.com/muhammadibrahim313.png" width="100px;" alt="Muhammad Ibrahim"/><br /><sub><b>Muhammad Ibrahim</b></sub></a><br />
+      <a href="https://www.linkedin.com/in/muhammad-ibrahim-qasmi-9876a1297/"><img src="https://github.com/muhammadibrahim313.png" width="100px;" alt="Muhammad Ibrahim"/><br /><sub><br><b>Muhammad Ibrahim</b></sub></a><br />
       <a href="https://www.linkedin.com/in/muhammad-ibrahim-qasmi-9876a1297/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="80px"/></a>
       <a href="https://github.com/muhammadibrahim313"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="100px"/></a>
     </td>
