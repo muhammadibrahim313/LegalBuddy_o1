@@ -10,7 +10,7 @@
                -webkit-text-fill-color: transparent;
                font-size: 1.5em;
                font-weight: bold;">
-    AI-Powered companion for liability analysis and legal document insights
+    AI-Powered companion for liability Analysis and Legal Document Insights
   </span>
 </h3>
 
