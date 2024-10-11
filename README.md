@@ -98,23 +98,13 @@ Visit `http://localhost:8501` in your browser to start using LegalBuddy!
 
 ---
 
-## 🤝 Contributing
 
-We welcome contributions from the legal tech community! Whether you're fixing bugs, improving documentation, or proposing new features, your efforts are appreciated.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
 
 ## 📄 License
 
 LegalBuddy is open-source software licensed under the MIT license.
 
----
+
 
 <div align="center">
 
