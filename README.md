@@ -95,16 +95,16 @@ LegalBuddy is an AI-powered legal assistant designed to revolutionize document r
 
 ```bash
 # Clone LegalBuddy
-git clone [https://github.com/your-username/legalbuddy.git]
+git clone [https://github.com/muhammadibrahim313/legalbuddy.git]
 
 # Enter the project directory
-cd legalbuddy
+cd app
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Launch LegalBuddy
-streamlit run app.py
+streamlit run landing.py
 ```
 
 
