@@ -98,7 +98,7 @@ To run LegalBuddy locally:
 
 ```bash
 # Clone LegalBuddy
-git clone [https://github.com/your-username/legalbuddy.git](https://github.com/muhammadibrahim313/LegalBuddy_o1)
+git clone [https://github.com/your-username/legalbuddy.git]
 
 # Enter the project directory
 cd legalbuddy
