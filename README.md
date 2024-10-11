@@ -31,7 +31,7 @@
 ## 🚀 About LegalBuddy
 
 <p align="center">
-  <img src="[https://your-image-url.com/legalbuddy-overview.png](https://github.com/muhammadibrahim313/LegalBuddy_o1/blob/case-analysis-01/background.jpg)" alt="LegalBuddy Overview" width="80%"/>
+  <img src="" alt="LegalBuddy Overview" width="80%"/>
 </p>
 
 LegalBuddy is an AI-powered legal assistant designed to revolutionize document review and analysis for attorneys. By leveraging cutting-edge AI technology, we're streamlining legal workflows, allowing legal professionals to focus on strategic decision-making and client advocacy.
