@@ -163,12 +163,12 @@ streamlit run landing.py
     <td align="center">
       <a href="https://www.linkedin.com/in/muhammad-ibrahim-qasmi-9876a1297/"><img src="https://github.com/muhammadibrahim313.png" width="100px;" alt="Muhammad Ibrahim"/><sub><br><b>Muhammad Ibrahim</b><br></sub></a><br />
       <a href="https://www.linkedin.com/in/muhammad-ibrahim-qasmi-9876a1297/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="80px"/></a>
-      <a href="https://github.com/muhammadibrahim313"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="100px"/></a>
+      <a href="https://github.com/muhammadibrahim313"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="120px"/></a>
     </td>
     <td align="center">
       <a href="#"><img src="https://github.com/github.png" width="120px;" alt="Team Member"/><br /><sub><b>Rosana Mannan </b><br></sub></a><br />
-      <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="100px"/></a>
-      <a href="#"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="100px"/></a>
+      <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="120px"/></a>
+      <a href="#"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="120px"/></a>
     </td>
   </tr>
 </table>
