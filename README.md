@@ -10,7 +10,7 @@
                -webkit-text-fill-color: transparent;
                font-size: 1.5em;
                font-weight: bold;">
-    AI-Powered Legal Document Review & Analysis Platform
+    AI-Powered companion for liability analysis and legal document insights
   </span>
 </h3>
 
@@ -34,7 +34,18 @@
   <img src="https://your-image-url.com/legalbuddy-overview.png" alt="LegalBuddy Overview" width="80%"/>
 </p>
 
-LegalBuddy is your AI-powered legal assistant, designed to revolutionize the way attorneys handle document review and case analysis. By harnessing the power of cutting-edge AI technology, we're making legal workflows more efficient, allowing legal professionals to focus on what truly matters - strategic decision-making and client advocacy.
+LegalBuddy is an AI-powered legal assistant designed to revolutionize document review and analysis for attorneys. By leveraging cutting-edge AI technology, we're streamlining legal workflows, allowing legal professionals to focus on strategic decision-making and client advocacy.
+
+### The Problem
+- **Lack of Automation**: Manual document review causes delays and reduces team efficiency.
+- **Inconsistent Analysis**: Traditional review processes lead to scalability issues and inconsistent litigation analysis.
+
+### Our Innovative Solution
+- **Frontend**: Attorneys upload legal documents for seamless processing.
+- **Upstage OCR & LLAMA**: Extracts and summarizes text from documents with state-of-the-art accuracy.
+- **OpenAI's <span style="color: #FF6B6B; font-weight: bold;">O1 LLM</span>**: Generates comprehensive liability and case analysis.
+- **LlamaIndex & MongoDB**: Indexes U.S. case law and matches relevant precedent cases.
+- **Final Report**: Combines all analyses into a detailed PDF report for attorneys.
 
 ---
 
@@ -45,19 +56,19 @@ LegalBuddy is your AI-powered legal assistant, designed to revolutionize the way
 </div>
 
 - 🧠 **AI-Powered Document Analysis**
-  - Leverages advanced OCR and LLAMA models to extract and summarize key information from legal documents.
+  - Utilizes Upstage OCR & LLAMA to extract and summarize text from legal documents.
 
 - 📚 **Intelligent Case Law Indexing**
-  - Automatically identifies and indexes relevant case law using LlamaIndex and MongoDB.
+  - Indexes U.S. case law and matches precedent cases using LlamaIndex & MongoDB.
 
 - 📊 **Comprehensive Legal Reports**
-  - Generates detailed PDF reports with summaries, actionable insights, and potential case strategies.
+  - Combines analyses into detailed PDF reports with liability and case analysis.
 
 - 🤖 **Deep Legal Insights**
-  - Utilizes OpenAI's o1 LLM to provide in-depth analysis, identifying potential liabilities and case strengths.
+  - Leverages OpenAI's <span style="color: #FF6B6B; font-weight: bold;">O1 LLM</span> to generate in-depth liability and case analysis.
 
 - ⚡ **Real-Time Processing**
-  - Delivers instant results, allowing attorneys to make informed decisions quickly.
+  - Delivers instant results for quick decision-making.
 
 ---
 
@@ -67,10 +78,11 @@ LegalBuddy is your AI-powered legal assistant, designed to revolutionize the way
   <img src="https://your-image-url.com/tech-stack.png" alt="Technology Stack" width="70%"/>
 </p>
 
-- 🖼️ **Upstage Document OCR**: State-of-the-art Optical Character Recognition for legal documents.
-- 🧠 **LLAMA 3.1 & OpenAI's o1 LLM**: Cutting-edge AI models for legal analysis and summarization.
-- 🗄️ **LlamaIndex & MongoDB**: Advanced legal precedent indexing and scalable data storage.
-- 🌐 **Streamlit**: User-friendly web interface for seamless document upload and analysis.
+- 🚀 **OpenAI's <span style="color: #FF6B6B; font-weight: bold;">O1 LLM</span>**: State-of-the-art language model for in-depth legal analysis
+- 🖼️ **Upstage Document OCR**: Advanced Optical Character Recognition for legal documents
+- 🧠 **LLAMA 3.1**: Cutting-edge AI model for text summarization
+- 🗄️ **LlamaIndex & MongoDB**: Efficient indexing of legal precedents and scalable data storage
+- 🌐 **Streamlit**: User-friendly web interface for document upload and analysis
 
 ---
 
@@ -79,6 +91,10 @@ LegalBuddy is your AI-powered legal assistant, designed to revolutionize the way
 <p align="center">
   <img src="https://your-image-url.com/quickstart.gif" alt="Quick Start" width="60%"/>
 </p>
+
+Visit our app: [LegalBuddy App](https://legalbuddyo1.streamlit.app/)
+
+To run LegalBuddy locally:
 
 ```bash
 # Clone LegalBuddy
@@ -94,17 +110,79 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Visit `http://localhost:8501` in your browser to start using LegalBuddy!
+Visit `http://localhost:8501` in your browser to start using LegalBuddy locally!
 
 ---
 
+## 📊 Market Opportunity
 
+- **Total Addressable Market (TAM)**: $700 billion in global legal services
+- **Serviceable Addressable Market (SAM)**: $25 billion in legal technology
+- **Serviceable Obtainable Market (SOM)**: $250 million to $1.25 billion
+
+---
+
+## 🏆 Benefits for Attorneys
+
+- **Comprehensive Case Reports**: Detailed analyses and strategic recommendations
+- **Data-Driven Insights**: Actionable insights for improved case preparation
+- **Time Efficiency**: Automated document review saves valuable attorney time
+- **Scalability**: Consistent analysis across large volumes of documents
+
+---
+
+## 🔮 Future Enhancements
+
+- **Real-Time Data Access**: Integration with live data sources
+- **Interactive Query Interface**: Chat-based interface for dynamic querying
+
+---
+
+<!-- Team Section with Hover Effects -->
+## 👥 Meet Team LegalBuddy
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/asim-khan-baloch/"><img src="https://github.com/Asimbaloch.png" width="100px;" alt="Asim Khan"/><br /><sub><b>Asim Khan</b></sub></a><br />
+      <a href="https://www.linkedin.com/in/asim-khan-baloch/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="80px"/></a>
+      <a href="https://github.com/Asimbaloch"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="80px"/></a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/ahmad-fakhar-357742258/"><img src="https://github.com/Ahmad-Fakhar.png" width="100px;" alt="Ahmad Fakhar"/><br /><sub><b>Ahmad Fakhar</b></sub></a><br />
+      <a href="https://www.linkedin.com/in/ahmad-fakhar-357742258/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="80px"/></a>
+      <a href="https://github.com/Ahmad-Fakhar"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="80px"/></a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/muhammad-jawad-86507b201"><img src="https://github.com/mj-awad17.png" width="100px;" alt="Muhammad Jawad"/><br /><sub><b>Muhammad Jawad</b></sub></a><br />
+      <a href="https://www.linkedin.com/in/muhammad-jawad-86507b201"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="80px"/></a>
+      <a href="https://github.com/mj-awad17"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="80px"/></a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/muhammad-bilal-a75782280/"><img src="https://github.com/bilal77511.png" width="100px;" alt="Muhammad Bilal"/><br /><sub><b>Muhammad Bilal</b></sub></a><br />
+      <a href="https://www.linkedin.com/in/muhammad-bilal-a75782280/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="80px"/></a>
+      <a href="https://github.com/bilal77511"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="80px"/></a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/muhammad-ibrahim-qasmi-9876a1297/"><img src="https://github.com/muhammadibrahim313.png" width="100px;" alt="Muhammad Ibrahim"/><br /><sub><b>Muhammad Ibrahim</b></sub></a><br />
+      <a href="https://www.linkedin.com/in/muhammad-ibrahim-qasmi-9876a1297/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="80px"/></a>
+      <a href="https://github.com/muhammadibrahim313"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="80px"/></a>
+    </td>
+    <td align="center">
+      <a href="#"><img src="https://github.com/github.png" width="100px;" alt="Team Member"/><br /><sub><b>Team Member</b></sub></a><br />
+      <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="80px"/></a>
+      <a href="#"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="80px"/></a>
+    </td>
+  </tr>
+</table>
+
+---
 
 ## 📄 License
 
 LegalBuddy is open-source software licensed under the MIT license.
 
-
+---
 
 <div align="center">
 
