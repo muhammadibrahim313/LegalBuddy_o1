@@ -17,6 +17,7 @@ def upstage_ocr(file_path):
         files = {"document": file}
         response = requests.post(UPSTAGE_API_URL, headers=headers, files=files)
     
+    #print(response.json()["text"])
     if response.status_code == 200:
         return response.json()["text"]
     else:
