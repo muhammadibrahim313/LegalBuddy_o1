@@ -92,9 +92,6 @@ LegalBuddy is an AI-powered legal assistant designed to revolutionize document r
   <img src="https://your-image-url.com/quickstart.gif" alt="Quick Start" width="60%"/>
 </p>
 
-Visit our app: [LegalBuddy App](https://legalbuddyo1.streamlit.app/)
-
-To run LegalBuddy locally:
 
 ```bash
 # Clone LegalBuddy
