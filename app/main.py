@@ -140,7 +140,7 @@ def main():
 
             # Analyze all summaries with OpenAI
             if all_summaries:
-                st.write("Generating liability analysis...")
+                st.write("Go get some tea or coffee, it might take a while...")
                 analysis = analyze_with_openai(openai_client, all_summaries)
 
                 # Generate and store report
