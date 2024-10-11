@@ -55,6 +55,9 @@ LegalBuddy is an AI-powered legal assistant designed to revolutionize document r
   <img src="https://your-image-url.com/legalbuddy-features.gif" alt="LegalBuddy Features" width="90%"/>
 </div>
 
+- 🤖 **Deep Legal Insights**
+  - Leverages OpenAI's <span style="color: #FF6B6B; font-weight: bold;">O1 LLM</span> to generate in-depth liability and case analysis.
+    
 - 🧠 **AI-Powered Document Analysis**
   - Utilizes Upstage OCR & LLAMA to extract and summarize text from legal documents.
 
@@ -63,9 +66,6 @@ LegalBuddy is an AI-powered legal assistant designed to revolutionize document r
 
 - 📊 **Comprehensive Legal Reports**
   - Combines analyses into detailed PDF reports with liability and case analysis.
-
-- 🤖 **Deep Legal Insights**
-  - Leverages OpenAI's <span style="color: #FF6B6B; font-weight: bold;">O1 LLM</span> to generate in-depth liability and case analysis.
 
 - ⚡ **Real-Time Processing**
   - Delivers instant results for quick decision-making.
