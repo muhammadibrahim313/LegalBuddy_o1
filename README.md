@@ -41,9 +41,9 @@ LegalBuddy is an AI-powered legal assistant designed to revolutionize document r
 - **Inconsistent Analysis**: Traditional review processes lead to scalability issues and inconsistent litigation analysis.
 
 ### Our Innovative Solution
+- **OpenAI's <span style="color: #FF6B6B; font-weight: bold;">O1 LLM</span>**: Generates comprehensive liability and case analysis.
 - **Frontend**: Attorneys upload legal documents for seamless processing.
 - **Upstage OCR & LLAMA**: Extracts and summarizes text from documents with state-of-the-art accuracy.
-- **OpenAI's <span style="color: #FF6B6B; font-weight: bold;">O1 LLM</span>**: Generates comprehensive liability and case analysis.
 - **LlamaIndex & MongoDB**: Indexes U.S. case law and matches relevant precedent cases.
 - **Final Report**: Combines all analyses into a detailed PDF report for attorneys.
 
